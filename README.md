@@ -1,5 +1,5 @@
 # DYI Bootcamp
-Say you needed to each a bootcamp all of a sudden and needed some challenges? This repo may or may not provide said challenges, for a price. In order to receive challenges answer me the following questions three?
+Say you needed to teach a bootcamp all of a sudden and needed some challenges? This repo may or may not provide said challenges, for a price. In order to receive challenges answer me the following questions three?
 
 * If a HREF is a page without users, is it even a link?
 * Is labor entitled to all of which it creates?
