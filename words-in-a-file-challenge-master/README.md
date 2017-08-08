@@ -65,7 +65,7 @@ Get creative and build other ways to parse the data. How many words are in the f
 ## Conclusion
 This challenge was a good opportunity to for us to figure out how to do something without being directed to reference materials.  How do we read in the contents of a file in Ruby?  We had to figure it out.  Fortunately, there are a lot of references and resources available for how to do this.  Being a core part of Ruby, this behavior is well documented.  But we still need to read through and comprehend that documentation.
 
-As developers, we need to be able to find good resources when using new technologies or facing new problems.  The skills we'll need range from selecting good search terms to quickly determining if a resource is appropriate for our needs to reading through source code.  Fortunately, we'll have plenty of opportunities to practice at Dev Bootcamp.
+As developers, we need to be able to find good resources when using new technologies or facing new problems.  The skills we'll need range from selecting good search terms to quickly determining if a resource is appropriate for our needs to reading through source code.  Fortunately, we'll have plenty of opportunities to practice at DYI-CAMP.
 
 [exercise]: http://programmingpraxis.com/2009/03/10/word-frequencies/
 [Programming Praxis]: http://programmingpraxis.com/
