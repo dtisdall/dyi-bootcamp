@@ -16,13 +16,15 @@ DICE = ["AAEEGN",
 		"DEILRX"]
 
 class BoggleBoard
-  def initialize
+  def initialize(dice)
   	@spaces = Array.new(16,"_")
-  	@alphabet = ('A'..'Z').to_a
+  	@dice = dice
   end
 
   def shake!
-  	@spaces.map!{|space| space = @alphabet.shuffle.take(1) }
+  	@spaces.map!{|space| space = @dice.shuffle.pop(1).first.letter }
+
+  	# @spaces.map!{|space| space = @alphabet.shuffle.take(1) }
 
   # 	new_array = Array.new
   # 	@spaces.each do | space |
@@ -45,8 +47,27 @@ class BoggleBoard
   end
 end
 
+class BoggleDice
+	def initialize(letters)
+		@letters = letters.split('')
+		@top_side = String.new
+		self.roll
+	end
 
-board = BoggleBoard.new
+	def roll
+		@top_side = @letters.shuffle.take(1)
+	end
+
+	def letter
+		@top_side
+	end
+end
+
+dice = DICE.map{|die| BoggleDice.new(die)}
+
+board = BoggleBoard.new(dice)
+
+
 puts board
 puts "Now shuffling your board"
 board.shake!
