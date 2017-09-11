@@ -28,7 +28,7 @@ class BoggleBoard
   		die.roll
   		letters_array << die.letter
   	end
-  	
+
   	@spaces = letters_array
 
   	# @dice.each{|die| die.roll}
@@ -69,16 +69,6 @@ class BoggleBoard
 
 
     output_string
-
-    #add three spaces between each item in the array
-
-
-
-
-
-    #if it's Q add a U and only add 2 spaces
-
-
   end
 end
 
